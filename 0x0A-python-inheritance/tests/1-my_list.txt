@@ -56,9 +56,10 @@ TEST 5: unique number
 >>> print(my_list)
 [1]
 >>>
+-------------------------------------------
 
 TEST 6: - append several zeros in list
--------------------------------------------
+
 >>> zero_list = MyList()
 >>> zero_list.append(0)
 >>> zero_list.append(0)
