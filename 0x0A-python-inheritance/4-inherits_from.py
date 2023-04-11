@@ -11,7 +11,7 @@ def inherits_from(obj, a_class):
     class that inherited directly or indirectly the
     specifief class
     """
-    if type(obj) and isinstance(obj, a_class) is not a_class:
+    if type(obj) is not a_class and isinstance(obj, a_class):
         return True
     else:
         return False
