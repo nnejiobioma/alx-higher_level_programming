@@ -1,3 +1,3 @@
 #!/bin/bash
 # Sends a request to URL and displays reaponse
-curl -s -o "$1" /dev/null -w "%{http_code}"
+curl -s "$1" -o /dev/null "%{http_code}" -w
