@@ -1,3 +1,3 @@
 #!/bin/bash
 # This takes URL and displays response
-curl -sH "$1" "X-School-User-Id: 98"
+curl -s -H "X-School-User-Id: 98" "$1"
